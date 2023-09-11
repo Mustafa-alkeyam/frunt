@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+}
+#navBar{
+    background-color: rgb(51, 1, 43);
+    padding: 10px;
+    margin-top: 10px;
+    bottom: 0px;
+    width: 100%;
+    
+
+}
+button{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 0px 50px;
+}
+
+#fotter{
+    background-color: rgb(51, 1, 43);
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+ 
+
+}
+
+.navButton{
+    background-color: rgb(226, 135, 17);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.navRightMenu{
+    float: right;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.navButton:hover{
+    background-color: rgb(176, 231, 22);
+}
+.navButton:active{
+    background-color: rgb(34, 233, 16);
+}
