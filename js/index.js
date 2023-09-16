@@ -30,3 +30,40 @@ do{
     num--;
 }
 while(num>=0)
+
+
+
+//  example of for loop
+ for(var material =1; material <=4; material++){
+    if(material===1){
+     console.log('Arbic')
+   }
+    else if(material===2){
+     console.log('English')
+    }
+    else if(material===3){
+     console.log('Math')
+    }
+   else if(material===4){
+     console.log('physic')
+    }
+}
+
+// switch
+for(var material =1; material <=4; material++){
+    switch (material){
+        case 1:
+            console.log('Arbic')
+            break;
+        case 2:
+            console.log('English')
+            break;
+        case 3:
+            console.log('Math')
+            break;
+        case 4:
+            console.log('physic')
+            break;
+    }
+ }
+ 
