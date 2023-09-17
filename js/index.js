@@ -67,3 +67,15 @@ for(var material =1; material <=4; material++){
     }
  }
  
+ var backGroundButton = document.getElementById(backColer)
+ function changeBackGround(){
+    console.log("changeBackGround")
+    console.log(document.body.style.backgroundColor)
+    if(document.body.style.backgroundColor == "red"){
+        document.body.style.backgroundColor = "white"
+    }
+    else{
+        document.body.style.backgroundColor = "red"
+
+    }
+ }
