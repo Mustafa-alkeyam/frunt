@@ -62,3 +62,10 @@ button{
 .navButton:active{
     background-color: rgb(34, 233, 16);
 }
+#prof{
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 200px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
