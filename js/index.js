@@ -67,6 +67,7 @@
 //     }
 //  }
  
+<<<<<<< HEAD
 //  var backGroundButton = document.getElementById(backColer)
 //  function changeBackGround(){
 //     console.log("changeBackGround")
@@ -87,9 +88,19 @@
     console.log(document.prof.style.margin-top)
     if(document.prof.style.margin-top == "20px"){
         document.prof.style.margin-top == "25px"
+=======
+ var backGroundButton = document.getElementById(backColer)
+ function changeBackGround(){
+    console.log("changeBackGround")
+    console.log(document.body.style.backgroundColor)
+    if(document.body.style.backgroundColor == "red"){
+        document.body.style.backgroundColor = ""
+>>>>>>> 6112d403f7e1a0b148910b3db7d8d0ff3ecd0d51
     }
     else{
         document.body.style.backgroundColor = "20px"
 
     }
  }
+
+ 
