@@ -72,10 +72,12 @@ for(var material =1; material <=4; material++){
     console.log("changeBackGround")
     console.log(document.body.style.backgroundColor)
     if(document.body.style.backgroundColor == "red"){
-        document.body.style.backgroundColor = "white"
+        document.body.style.backgroundColor = ""
     }
     else{
         document.body.style.backgroundColor = "red"
 
     }
  }
+
+ 
