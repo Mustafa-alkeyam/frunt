@@ -1,10 +1,13 @@
 console.log(document.body.children)
-// let tabel1 = document.createElement("table");
-// tabel1.innerHTML ;
-// document.body.append(tabel1);
-// let tbody5 = document.createElement("tbody");
-// tbody5.innerHTML;
-// document.body.table.append(tbody5);
-let trow3 = document.createElement("tr");
-trow3.innerHTML;
-document.tbody.append(trow3);
+let tabel1 = document.createElement("table");
+let thead7 = document.createElement("thead");
+let tbody5 = document.createElement("tbody");
+let trow6 = document.createElement("tr");
+let th8 = document.createElement("th");
+let th9 = document.createElement("th");
+tabel1.appendChild(thead7);
+tabel1.appendChild(tbody5);
+thead7.appendChild(trow6);
+trow6.appendChild(th8);
+trow6.appendChild(th9);
+document.body.appendChild(tabel1);
