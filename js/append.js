@@ -17,7 +17,15 @@ td1.innerHTML = "data1";
 td2.innerHTML = "data2";
 td3.innerHTML = "data3";
 td4.innerHTML = "data4";
-trow1.style.color = "red"
+tabel1.style.backgroundColor = " gray"
+tabel1.style.margin = "200px 600px 200px 600px"
+tabel1.style.border = "2px solid black";
+th1.style.border = "2px solid black";
+th2.style.border = "2px solid black";
+td1.style.border = "2px solid black";
+td2.style.border = "2px solid black";
+td3.style.border = "2px solid black";
+td4.style.border = "2px solid black";
 tabel1.appendChild(thead1);
 tabel1.appendChild(tbody1);
 thead1.appendChild(trow1);
