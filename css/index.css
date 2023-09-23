@@ -74,3 +74,51 @@ button{
     
     
 }
+.graiPage{
+    display: grid;
+    grid-template-areas: "header header header header header"
+                         "content content content content content"
+                         "fotter fotter fotter fotter fotter" ;
+    text-align: center;                     
+    
+}
+#navBar{
+    grid-area: header;
+    padding: 20px;
+    
+}
+#content{
+    grid-area: content;
+    padding: 20px;
+    margin: 60px;
+}
+#fotter{
+    grid-area: fotter;
+    padding: 20px;
+    
+}
+.graidConter{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+
+
+.graidItem1{
+    text-align: center;
+}
+.graidItem2{
+    text-align: center;
+}
+.graidItem3{
+    text-align: center;
+}
+.graidItem4{
+    text-align: center;
+}
+.graidItem5{
+    text-align: center;
+}
+.graidItem6{
+    text-align: center;
+}
