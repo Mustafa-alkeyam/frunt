@@ -1,6 +1,4 @@
-var myName = document.getElementsByClassName('myName')[0]
- myName.innerHTML = 'Mustafa'
- myName.style.color = 'red'
+
 
 var primeForm = document.getElementsByClassName('primeForm')[0]
 var primeInput = document.getElementById('primeInput')
@@ -77,8 +75,29 @@ for(var material =1; material <=4; material++){
         document.body.style.backgroundColor = "red"
 
     }
+    
  }
+ var myForm = document.getElementsByClassName('userInput')[0]
+console.log(document.getElementsByClassName('input'))
+var myInput = document.getElementsByClassName('input')[0]
+var myName = document.getElementsByClassName('myName')[0]
 
+ myForm.addEventListener('submit',function(e){
+    e.preventDefault()
+    console.log(e)
+    localStorage.setItem('profilleName',myInput.value)
+    myName.innerHTML = localStorage.getItem('profilleName')
+
+
+    myName.innerHTML = myInput.value
+    myInput.value = ""
+    myName.style.color = "red"
+    myName.style.fontWeight = "bold"
+    myName.style.fontFamily = "arial"
+    myName.style.textAlign = "center"
+    
+})  
+myName.innerHTML = localStorage.getItem('profilleName')
  
 
  
